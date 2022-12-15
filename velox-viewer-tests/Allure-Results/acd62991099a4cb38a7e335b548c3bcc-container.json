@@ -1,0 +1,30 @@
+{
+  "uuid": "1e9114b6-571a-424c-accf-003ace850a07-tc-0-1000",
+  "name": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "children": [
+    "bb045faa-dd6e-400e-b26d-2386ce55f456-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : Failed to locate opened application window with appId: C:\\Velox\\Exe\\VeloxViewer\\current\\VeloxViewer.exe, and processId: 11992",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Windows.WindowsDriver`1..ctor(Uri remoteAddress, AppiumOptions AppiumOptions)\r\n   at velox_viewer_tests.Utils.BaseTest.GetDriver() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\BaseTest.cs:line 26\r\n   at velox_viewer_tests.Tests.Tests.Setup() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1671055238312,
+      "stop": 1671055238312
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1671055232930,
+  "stop": 1671055238341
+}

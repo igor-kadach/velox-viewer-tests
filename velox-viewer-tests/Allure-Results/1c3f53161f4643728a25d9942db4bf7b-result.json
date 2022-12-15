@@ -1,0 +1,89 @@
+{
+  "uuid": "5f1119d2-f066-422c-9cbb-8a318ab1b0b8-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.Test1",
+  "fullName": "velox_viewer_tests.Tests.Tests.Test1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "CarExchange"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test1"
+  },
+  "stage": "finished",
+  "description": "Test1\n",
+  "steps": [
+    {
+      "name": "Test1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cac7597179424adea369579a77750833-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1670923658638,
+      "stop": 1670923675547
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1670923658637,
+  "stop": 1670923675553
+}

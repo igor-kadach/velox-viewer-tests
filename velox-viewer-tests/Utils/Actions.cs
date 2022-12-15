@@ -1,0 +1,15 @@
+﻿using OpenQA.Selenium.Appium.Windows;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace velox_viewer_tests.Utils
+{
+    public class Actions
+    {
+
+
+    }
+}

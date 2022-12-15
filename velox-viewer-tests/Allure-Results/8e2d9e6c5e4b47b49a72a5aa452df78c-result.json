@@ -1,0 +1,89 @@
+{
+  "uuid": "3ae8db32-6575-4c8e-9f04-b1ea081c6867-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "fullName": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginTest"
+  },
+  "stage": "finished",
+  "description": "LoginTest\n",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3f1b0f494379431ca0f6d19d17b3b3ff-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671018845040,
+      "stop": 1671018856006
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671018845040,
+  "stop": 1671018856010
+}

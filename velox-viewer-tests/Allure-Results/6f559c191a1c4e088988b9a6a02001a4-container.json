@@ -1,0 +1,30 @@
+{
+  "uuid": "caaf7d03-7dc4-4128-a498-81e2d2f3edb0-tc-0-1000",
+  "name": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "children": [
+    "fe6e0e75-1697-4ba1-b393-70253607763e-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.",
+        "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n   at velox_viewer_tests.Utils.BaseTest.GetDriver() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\BaseTest.cs:line 23\r\n   at velox_viewer_tests.Tests.Tests.Setup() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1671052759124,
+      "stop": 1671052759124
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1671052759083,
+  "stop": 1671052759156
+}

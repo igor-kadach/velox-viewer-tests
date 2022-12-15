@@ -1,0 +1,92 @@
+{
+  "uuid": "db458b07-c266-4d28-82ea-6c50b328db22-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "fullName": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at velox_viewer_tests.LoginViewerPageObject.get__passwordField() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\LoginViewerPageObject.cs:line 32\r\n   at velox_viewer_tests.LoginViewerPageObject.EnterPassword() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\LoginViewerPageObject.cs:line 38\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 49"
+  },
+  "stage": "finished",
+  "description": "LoginTest\n",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at velox_viewer_tests.LoginViewerPageObject.get__passwordField() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\LoginViewerPageObject.cs:line 32\r\n   at velox_viewer_tests.LoginViewerPageObject.EnterPassword() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\LoginViewerPageObject.cs:line 38\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3a0667aea9f443b794a822d50a6dde5e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671002974972,
+      "stop": 1671002980317
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671002974971,
+  "stop": 1671002980321
+}

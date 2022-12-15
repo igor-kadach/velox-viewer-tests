@@ -1,0 +1,92 @@
+{
+  "uuid": "655f3e96-ace7-4d2e-8b00-10acff16aea2-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "fullName": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 40\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 72"
+  },
+  "stage": "finished",
+  "description": "LoginTest\n",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 40\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 72"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6026af9144714954bc6866c8496810ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671052963578,
+      "stop": 1671052995991
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671052963577,
+  "stop": 1671052995995
+}

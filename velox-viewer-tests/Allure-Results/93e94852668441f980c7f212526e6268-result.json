@@ -1,0 +1,92 @@
+{
+  "uuid": "75a44d3c-bdb7-438b-a557-7c10efaa5c86-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "fullName": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at velox_viewer_tests.Utils.ElementsWaiter.IsElementPresent(String myElement) in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\ElementsWaiter.cs:line 37\r\n   at velox_viewer_tests.Utils.ElementsWaiter.isWaitElement(String element, Int32 timeout) in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\ElementsWaiter.cs:line 23\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 32\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 73"
+  },
+  "stage": "finished",
+  "description": "LoginTest\n",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at velox_viewer_tests.Utils.ElementsWaiter.IsElementPresent(String myElement) in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\ElementsWaiter.cs:line 37\r\n   at velox_viewer_tests.Utils.ElementsWaiter.isWaitElement(String element, Int32 timeout) in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Utils\\ElementsWaiter.cs:line 23\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 32\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 73"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "19e9802d5d7b471dbf8b23982891a284-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671105255692,
+      "stop": 1671105259057
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671105255691,
+  "stop": 1671105259064
+}

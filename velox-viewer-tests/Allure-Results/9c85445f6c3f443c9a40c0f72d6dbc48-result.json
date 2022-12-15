@@ -1,0 +1,92 @@
+{
+  "uuid": "34181341-f897-4e54-8866-ac2e4db9ee8d-tr-0-1001",
+  "historyId": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "fullName": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I645VPT"
+    },
+    {
+      "name": "package",
+      "value": "velox_viewer_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "owner",
+      "value": "Igor_Kadach"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByName(String name)\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.get__userPreferences() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 18\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 31\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 69"
+  },
+  "stage": "finished",
+  "description": "LoginTest\n",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByName(String name)\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.get__userPreferences() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 18\r\n   at velox_viewer_tests.PageObjects.WorklistPageObject.CheckUser() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\PageObjects\\WorklistPageObject.cs:line 31\r\n   at velox_viewer_tests.Tests.Tests.LoginTest() in C:\\Users\\Igor\\source\\repos\\velox-viewer-tests\\velox-viewer-tests\\Tests\\LoginTest.cs:line 69"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6ae7dc2d99c644fabfccfba0bad5ec9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671018810131,
+      "stop": 1671018826954
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671018810131,
+  "stop": 1671018826958
+}

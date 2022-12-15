@@ -1,0 +1,28 @@
+{
+  "uuid": "878d5d26-765f-4aa1-8523-28d76d223bd0-tc-0-1000",
+  "name": "velox_viewer_tests.Tests.Tests.LoginTest",
+  "children": [
+    "2e535c37-287f-4dd3-8dcb-e42b719d4c15-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1671055057752,
+      "stop": 1671055057752
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1671055055365,
+  "stop": 1671055057780
+}
