@@ -1,14 +1,4 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Appium;
-using OpenQA.Selenium.Appium.iOS;
-using OpenQA.Selenium.Appium.Windows;
-using OpenQA.Selenium.Html5;
-using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OpenQA.Selenium.Appium.Windows;
 using velox_viewer_tests.Utils;
 
 namespace velox_viewer_tests.PageObjects
@@ -21,9 +11,6 @@ namespace velox_viewer_tests.PageObjects
 
         public WindowsElement _userPreferences => _veloxViewerSession.FindElementByName("Igor Kadach (ytest.KadacI)");
 
-
-
-
         public bool CheckUser()
         {
             Helpers.SwitchWindow();
@@ -31,9 +18,5 @@ namespace velox_viewer_tests.PageObjects
             var isUserNameAppeares = _userPreferences.Displayed;
             return isUserNameAppeares;
         }
-
-
-
-
     }
 }

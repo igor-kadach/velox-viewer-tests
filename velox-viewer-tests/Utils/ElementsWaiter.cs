@@ -1,11 +1,4 @@
-﻿using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium.Appium.Windows;
+﻿using OpenQA.Selenium.Appium.Windows;
 using System.Diagnostics;
 using velox_viewer_tests.PageObjects;
 
@@ -37,7 +30,7 @@ namespace velox_viewer_tests.Utils
         {
             Helpers.SwitchWindow();
 
-       //    WindowsElement _userPreferences1 = _veloxViewerSession.FindElementByName(myElement);
+           WindowsElement _userPreferences1 = _veloxViewerSession.FindElementByName(myElement);
 
             if (WorklistPageObject._userPreferences != null)
             {
@@ -48,41 +41,5 @@ namespace velox_viewer_tests.Utils
                 return false;
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // private static TimeSpan _elementTimeOut;
-
-        //private static readonly WindowsDriver<WindowsElement> _veloxViewerSession;
-
-        //public static void WaitElementToBeExist()
-        //{
-
-        // //   var Driver = new WindowsDriver<WindowsElement>();
-
-        //    new WebDriverWait(_veloxViewerSession, TimeSpan.FromSeconds(30)).Until(d => d.FindElements(By.Name("someName")).Count > 0);
-        //}
-
-        //public static IWebElement WaitElementIsVisible(this By locator, IWebDriver driver, int timeout = 10)
-        //{
-        //    WebDriverWait wait = new WebDriverWait(WindowsDriver<WindowsElement>, TimeSpan.FromSeconds(10));
-        //    wait.Until(ExpectedConditions.ElementExists(By.Id("id")));
-        //}
-
-
     }
 }

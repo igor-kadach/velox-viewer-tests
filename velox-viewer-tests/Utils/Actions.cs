@@ -9,7 +9,5 @@ namespace velox_viewer_tests.Utils
 {
     public class Actions
     {
-
-
     }
 }
